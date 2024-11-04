@@ -37,6 +37,9 @@
       <!-- Nav pills -->
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-home-tab" href="page1.html" role="tab" aria-controls="pills-home" aria-selected="false">Page 1</a>
+        </li>        
+        <li class="nav-item" role="presentation">
           <a class="nav-link" id="pills-home-tab" href="page2.html" role="tab" aria-controls="pills-home" aria-selected="false">Page 2</a>
         </li>
         <li class="nav-item" role="presentation">
