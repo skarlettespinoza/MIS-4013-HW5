@@ -29,6 +29,11 @@
         box-shadow: none; /* Remove the focus shadow */
       }
     </style>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+      }
+    </script>
   </head>
   <body>
     <div class="container mt-3">
@@ -52,7 +57,13 @@
           <a class="nav-link" id="pills-about-tab" href="page4.html" role="tab" aria-controls="pills-about" aria-selected="false">Page 4</a>
         </li>
       </ul>
-      
+
+      <!-- New section with JavaScript function and button -->
+      <h2>Demo JavaScript in Head</h2>
+      <p id="demo">A Paragraph.</p>
+      <button type="button" class="btn btn-primary" onclick="myFunction()">Try it</button>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
